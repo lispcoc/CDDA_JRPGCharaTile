@@ -1,4 +1,5 @@
 # Old JRPG-Like Character Tile for Cataclysm: DDA
+![サンプル画像](Image.png "サンプル画像")
 プレイヤーやNPCのタイルを90年代JRPG風の変更するMODです。<br>
 MshockXottoplus, Chibi_UlticaなどのいわゆるMshockXotto系タイルに対応します。<br>
 
@@ -15,6 +16,7 @@ MshockXottoplus, Chibi_UlticaなどのいわゆるMshockXotto系タイルに対�
 - 男性の髪形(現状は女性を流用)
 
 ## 対応(予定)MOD
+以下MODと併用する場合は、このMODのロード順を一番最後にしてください。
 - ボイスロイドMOD(原作: shaba様、メンテナ: YasuYasu様)<br>
 結月ゆかり、弦巻マキ、紲星あかり、琴葉茜、琴葉葵、東北きりたん、東北ずん子の通常表示に対応。
 - おしゃれ服装委員会(作: YasuYasu様)<br>
