@@ -1,6 +1,6 @@
 # Old JRPG-Like Character Tile for Cataclysm: DDA
 ![サンプル画像](Image.png "サンプル画像")
-プレイヤーやNPCのタイルを90年代JRPG風の変更するMODです。<br>
+プレイヤーやNPCのタイルを90年代JRPGキャラクター風に変更するMODです。<br>
 MshockXottoplus, Chibi_UlticaなどのいわゆるMshockXotto系タイルに対応します。<br>
 
 ## 概要
@@ -13,7 +13,7 @@ MshockXottoplus, Chibi_UlticaなどのいわゆるMshockXotto系タイルに対�
 首より下の装備は既存タイルと互換がありますが、頭部分まではみ出すタイプの装備は表示がおかしくなる場合があります。<br>
 以下は現時点で未対応・暫定対応です。
 - 髭
-- 男性の髪形(現状は女性を流用)
+- 男性の髪形(現状は女性用を流用)
 
 ## 対応(予定)MOD
 以下MODと併用する場合は、このMODのロード順を一番最後にしてください。
