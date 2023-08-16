@@ -1,0 +1,28 @@
+[
+  {
+    "type": "overlay_order",
+    "overlay_ordering": [
+      {
+        "id": [
+          "tareme",
+          "trurime",
+          "eyeshadow",
+          "cheek",
+          "jitome",
+          "jitome_SKIN_DARK",
+          "jitome_SKIN_LIGHT",
+          "jitome_SKIN_MEDIUM",
+          "jitome_SKIN_PINK",
+          "jitome_SKIN_TAN",
+          "jitome_SKIN_ALBINO"
+        ],
+        "order": 1501,
+        "//1": "目の色 = 250",
+        "//2": "肌の色 = 1100",
+        "//3": "アルビノ = 1500",
+        "//4": "髭 = 1550",
+        "//5": "髪 = 1600"
+      }
+    ]
+  }
+]

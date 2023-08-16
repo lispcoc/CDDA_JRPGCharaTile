@@ -1,0 +1,193 @@
+[
+  {
+    "type": "mutation_type",
+    "id": "cosmetic"
+  },
+  {
+    "type": "mutation_type",
+    "id": "jitome"
+  },
+  {
+    "id": "tareme",
+    "type": "mutation",
+    "name": {
+      "str": "たれ目"
+    },
+    "description": "垂れ下がった目です。",
+    "points": 0,
+    "starting_trait": false,
+    "valid": false,
+    "player_display": false,
+    "vanity": true,
+    "types": [
+      "cosmetic"
+    ]
+  },
+  {
+    "id": "trurime",
+    "type": "mutation",
+    "name": {
+      "str": "つり目"
+    },
+    "description": "釣り上がった目です。",
+    "points": 0,
+    "starting_trait": false,
+    "valid": false,
+    "player_display": false,
+    "vanity": true,
+    "types": [
+      "cosmetic"
+    ]
+  },
+  {
+    "id": "eyeshadow",
+    "type": "mutation",
+    "name": {
+      "str": "アイシャドウ"
+    },
+    "description": "アイシャドウです。",
+    "points": 0,
+    "starting_trait": false,
+    "valid": false,
+    "player_display": false,
+    "vanity": true,
+    "types": [
+      "cosmetic"
+    ]
+  },
+  {
+    "id": "cheek",
+    "type": "mutation",
+    "name": {
+      "str": "頬紅"
+    },
+    "description": "頬紅です。",
+    "points": 0,
+    "starting_trait": false,
+    "valid": false,
+    "player_display": false,
+    "vanity": true,
+    "types": [
+      "cosmetic"
+    ]
+  },
+  {
+    "id": "jitome",
+    "type": "mutation",
+    "name": {
+      "str": "ジト目(通常)"
+    },
+    "description": "ジトっとした目です。",
+    "points": 0,
+    "starting_trait": false,
+    "valid": false,
+    "player_display": true,
+    "vanity": true,
+    "types": [
+      "jitome"
+    ],
+    "flags": [ "jitome" ]
+  },
+  {
+    "id": "jitome_SKIN_DARK",
+    "type": "mutation",
+    "name": {
+      "str": "ジト目(茶褐色)"
+    },
+    "description": "ジトっとした目です。",
+    "points": 0,
+    "starting_trait": false,
+    "valid": false,
+    "player_display": true,
+    "vanity": true,
+    "types": [
+      "jitome"
+    ],
+    "flags": [ "jitome" ]
+  },
+  {
+    "id": "jitome_SKIN_LIGHT",
+    "type": "mutation",
+    "name": {
+      "str": "ジト目(白色)"
+    },
+    "description": "ジトっとした目です。",
+    "points": 0,
+    "starting_trait": false,
+    "valid": false,
+    "player_display": true,
+    "vanity": true,
+    "types": [
+      "jitome"
+    ],
+    "flags": [ "jitome" ]
+  },
+  {
+    "id": "jitome_SKIN_MEDIUM",
+    "type": "mutation",
+    "name": {
+      "str": "ジト目(淡褐色)"
+    },
+    "description": "ジトっとした目です。",
+    "points": 0,
+    "starting_trait": false,
+    "valid": false,
+    "player_display": true,
+    "vanity": true,
+    "types": [
+      "jitome"
+    ],
+    "flags": [ "jitome" ]
+  },
+  {
+    "id": "jitome_SKIN_PINK",
+    "type": "mutation",
+    "name": {
+      "str": "ジト目(淡紅色)"
+    },
+    "description": "ジトっとした目です。",
+    "points": 0,
+    "starting_trait": false,
+    "valid": false,
+    "player_display": true,
+    "vanity": true,
+    "types": [
+      "jitome"
+    ],
+    "flags": [ "jitome" ]
+  },
+  {
+    "id": "jitome_SKIN_TAN",
+    "type": "mutation",
+    "name": {
+      "str": "ジト目(赤茶色)"
+    },
+    "description": "ジトっとした目です。",
+    "points": 0,
+    "starting_trait": false,
+    "valid": false,
+    "player_display": true,
+    "vanity": true,
+    "types": [
+      "jitome"
+    ],
+    "flags": [ "jitome" ]
+  },
+  {
+    "id": "jitome_SKIN_ALBINO",
+    "type": "mutation",
+    "name": {
+      "str": "ジト目(アルビノ)"
+    },
+    "description": "ジトっとした目です。",
+    "points": 0,
+    "starting_trait": false,
+    "valid": false,
+    "player_display": true,
+    "vanity": true,
+    "types": [
+      "jitome"
+    ],
+    "flags": [ "jitome" ]
+  }
+]

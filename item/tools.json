@@ -1,0 +1,192 @@
+[
+  {
+    "type": "GENERIC",
+    "id": "mirror",
+    "color": "light_cyan",
+    "name": {
+      "str": "hand mirror"
+    },
+    "copy-from": "mirror",
+    "use_action": [
+      "CHANGE_EYES",
+      "CHANGE_SKIN",
+      {
+        "type": "effect_on_conditions",
+        "menu_text": "化粧直しをする",
+        "description": "目の形や顔の表示を変更します。",
+        "effect_on_conditions": [ "EOC_cosmetic_menu" ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_cosmetic_menu",
+    "effect": [ { "open_dialogue": { "topic": "TALK_COSMETIC_MENU_MAIN" } } ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_cosmetic_reset_eyes",
+    "effect": [
+      { "u_lose_trait": "trurime" },
+      { "u_lose_trait": "tareme" },
+      { "u_lose_trait": "jitome" },
+      { "u_lose_trait": "jitome_SKIN_DARK" },
+      { "u_lose_trait": "jitome_SKIN_LIGHT" },
+      { "u_lose_trait": "jitome_SKIN_MEDIUM" },
+      { "u_lose_trait": "jitome_SKIN_PINK" },
+      { "u_lose_trait": "jitome_SKIN_TAN" },
+      { "u_lose_trait": "jitome_SKIN_ALBINO" }
+    ]
+  },
+  {
+    "type": "talk_topic",
+    "id": "TALK_COSMETIC_MENU_MAIN",
+    "dynamic_line": "変更内容を選んでください。",
+    "responses": [
+      {
+        "condition": { "not": { "u_has_trait": "cheek" } },
+        "text": "頬紅をする。",
+        "effect": [
+          { "u_add_trait": "cheek" }
+        ],
+        "topic": "TALK_COSMETIC_MENU_MAIN"
+      },
+      {
+        "condition": { "u_has_trait": "cheek" },
+        "text": "頬紅を落とす。",
+        "effect": [
+          { "u_lose_trait": "cheek" }
+        ],
+        "topic": "TALK_COSMETIC_MENU_MAIN"
+      },
+      {
+        "condition": { "not": { "u_has_trait": "eyeshadow" } },
+        "text": "アイシャドウをする。",
+        "effect": [
+          { "u_add_trait": "eyeshadow" }
+        ],
+        "topic": "TALK_COSMETIC_MENU_MAIN"
+      },
+      {
+        "condition": { "u_has_trait": "eyeshadow" },
+        "text": "アイシャドウを落とす。",
+        "effect": [
+          { "u_lose_trait": "eyeshadow" }
+        ],
+        "topic": "TALK_COSMETIC_MENU_MAIN"
+      },
+      {
+        "condition": { "not": { "u_has_trait": "tareme" } },
+        "text": "たれ目に変更する。",
+        "effect": [
+          { "run_eocs": [ "EOC_cosmetic_reset_eyes" ] },
+          { "u_add_trait": "tareme" }
+        ],
+        "topic": "TALK_COSMETIC_MENU_MAIN"
+      },
+      {
+        "condition": { "not": { "u_has_trait": "trurime" } },
+        "text": "つり目に変更する。",
+        "effect": [
+          { "run_eocs": [ "EOC_cosmetic_reset_eyes" ] },
+          { "u_add_trait": "trurime" }
+        ],
+        "topic": "TALK_COSMETIC_MENU_MAIN"
+      },
+      {
+        "condition": { "not": { "or": [ 
+          { "u_has_flag": "jitome" }
+        ] } },
+        "text": "ジト目(通常)に変更する。",
+        "effect": [
+          { "run_eocs": [ "EOC_cosmetic_reset_eyes" ] },
+          { "u_add_trait": "jitome" }
+        ],
+        "topic": "TALK_COSMETIC_MENU_MAIN"
+      },
+      {
+        "condition": { "not": { "or": [ 
+          { "u_has_flag": "jitome" }
+        ] } },
+        "text": "ジト目(茶褐色)に変更する。",
+        "effect": [
+          { "run_eocs": [ "EOC_cosmetic_reset_eyes" ] },
+          { "u_add_trait": "jitome_SKIN_DARK" }
+        ],
+        "topic": "TALK_COSMETIC_MENU_MAIN"
+      },
+      {
+        "condition": { "not": { "or": [ 
+          { "u_has_flag": "jitome" }
+        ] } },
+        "text": "ジト目(白色)に変更する。",
+        "effect": [
+          { "run_eocs": [ "EOC_cosmetic_reset_eyes" ] },
+          { "u_add_trait": "jitome_SKIN_LIGHT" }
+        ],
+        "topic": "TALK_COSMETIC_MENU_MAIN"
+      },
+      {
+        "condition": { "not": { "or": [ 
+          { "u_has_flag": "jitome" }
+        ] } },
+        "text": "ジト目(淡褐色)に変更する。",
+        "effect": [
+          { "run_eocs": [ "EOC_cosmetic_reset_eyes" ] },
+          { "u_add_trait": "jitome_SKIN_MEDIUM" }
+        ],
+        "topic": "TALK_COSMETIC_MENU_MAIN"
+      },
+      {
+        "condition": { "not": { "or": [ 
+          { "u_has_flag": "jitome" }
+        ] } },
+        "text": "ジト目(淡紅色)に変更する。",
+        "effect": [
+          { "run_eocs": [ "EOC_cosmetic_reset_eyes" ] },
+          { "u_add_trait": "jitome_SKIN_PINK" }
+        ],
+        "topic": "TALK_COSMETIC_MENU_MAIN"
+      },
+      {
+        "condition": { "not": { "or": [ 
+          { "u_has_flag": "jitome" }
+        ] } },
+        "text": "ジト目(赤茶色)に変更する。",
+        "effect": [
+          { "run_eocs": [ "EOC_cosmetic_reset_eyes" ] },
+          { "u_add_trait": "jitome_SKIN_TAN" }
+        ],
+        "topic": "TALK_COSMETIC_MENU_MAIN"
+      },
+      {
+        "condition": { "not": { "or": [ 
+          { "u_has_flag": "jitome" }
+        ] } },
+        "text": "ジト目(アルビノ)に変更する。",
+        "effect": [
+          { "run_eocs": [ "EOC_cosmetic_reset_eyes" ] },
+          { "u_add_trait": "jitome_SKIN_ALBINO" }
+        ],
+        "topic": "TALK_COSMETIC_MENU_MAIN"
+      },
+      {
+        "condition": { "or": [ 
+          { "u_has_trait": "trurime" },
+          { "u_has_trait": "tareme" },
+          { "u_has_flag": "jitome" }
+        ] },
+        "text": "通常の目に戻す。",
+        "effect": [
+          { "run_eocs": [ "EOC_cosmetic_reset_eyes" ] },
+          { "u_lose_trait": "jitome_SKIN_ALBINO" }
+        ],
+        "topic": "TALK_COSMETIC_MENU_MAIN"
+      },
+      {
+        "text": "やめる。",
+        "topic": "TALK_DONE"
+      }
+    ]
+  }
+]

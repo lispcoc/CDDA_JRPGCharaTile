@@ -1,0 +1,40 @@
+[
+  {
+    "type": "mod_tileset",
+    "compatibility": [ "Custom Tileset", "UNDEAD_PEOPLE_BASE", "MSX++DEAD_PEOPLE", "MshockXottoplus", "UNDEAD_PEOPLE", "Chibi_Ultica" ],
+    "tiles-new": [
+      {
+        "file": "body/body_female.png",
+        "sprite_width": 32,
+        "sprite_height": 48,
+        "sprite_offset_x": 0,
+        "sprite_offset_y": -16,
+        "tiles": [
+          { "id": [ "player_female", "npc_female" ],   "fg": 1, "rotates": false, "bg": 0 },
+          { "id": "overlay_female_mutation_SKIN_DARK",   "fg": 2, "rotates": false },
+          { "id": "overlay_female_mutation_SKIN_LIGHT",  "fg": 3, "rotates": false },
+          { "id": "overlay_female_mutation_SKIN_MEDIUM", "fg": 4, "rotates": false },
+          { "id": "overlay_female_mutation_SKIN_PINK",   "fg": 5, "rotates": false },
+          { "id": "overlay_female_mutation_SKIN_TAN",    "fg": 6, "rotates": false },
+          { "id": "overlay_female_mutation_ALBINO",      "fg": 7, "rotates": false }
+        ]
+      },
+      {
+        "file": "body/body_male.png",
+        "sprite_width": 32,
+        "sprite_height": 48,
+        "sprite_offset_x": 0,
+        "sprite_offset_y": -16,
+        "tiles": [
+          { "id": [ "player_male", "npc_male" ],     "fg": 1, "rotates": false, "bg": 0 },
+          { "id": "overlay_male_mutation_SKIN_DARK",   "fg": 2, "rotates": false },
+          { "id": "overlay_male_mutation_SKIN_LIGHT",  "fg": 3, "rotates": false },
+          { "id": "overlay_male_mutation_SKIN_MEDIUM", "fg": 4, "rotates": false },
+          { "id": "overlay_male_mutation_SKIN_PINK",   "fg": 5, "rotates": false },
+          { "id": "overlay_male_mutation_SKIN_TAN",    "fg": 6, "rotates": false },
+          { "id": "overlay_male_mutation_ALBINO",      "fg": 7, "rotates": false }
+        ]
+      }
+    ]
+  }
+]

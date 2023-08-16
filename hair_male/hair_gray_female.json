@@ -1,0 +1,35 @@
+[
+  {
+    "type": "mod_tileset",
+    "compatibility": [ "Custom Tileset", "UNDEAD_PEOPLE_BASE", "MSX++DEAD_PEOPLE", "MshockXottoplus", "UNDEAD_PEOPLE", "Chibi_Ultica" ],
+    "tiles-new": [
+      {
+        "file": "hair_female/hair_gray.png",
+        "sprite_width": 32,
+        "sprite_height": 48,
+        "sprite_offset_x": 0,
+        "sprite_offset_y": -16,
+        "tiles": [
+          { "id": "overlay_male_mutation_buzzcut_var_gray",         "fg": 1,  "bg": 21, "rotates": false },
+          { "id": "overlay_male_mutation_crewcut_var_gray",         "fg": 2,  "bg": 22, "rotates": false },
+          { "id": "overlay_male_mutation_hair_gray_crewcut",        "fg": 2,  "bg": 22, "rotates": false },
+          { "id": "overlay_male_mutation_fro_var_gray",             "fg": 3,  "bg": 23, "rotates": false },
+          { "id": "overlay_male_mutation_mohawk_var_gray",          "fg": 4,  "bg": 24, "rotates": false },
+          { "id": "overlay_male_mutation_hair_gray_mohawk",         "fg": 4,  "bg": 24, "rotates": false },
+          { "id": "overlay_male_mutation_mullet_var_gray",          "fg": 5,  "bg": 25, "rotates": false },
+          { "id": "overlay_male_mutation_ponytail_var_gray",        "fg": 6,  "bg": 26, "rotates": false },
+          { "id": "overlay_male_mutation_short_var_gray",           "fg": 7,  "bg": 27, "rotates": false },
+          { "id": "overlay_male_mutation_hair_gray_short",          "fg": 7,  "bg": 27, "rotates": false },
+          { "id": "overlay_male_mutation_short_no_fringe_var_gray", "fg": 8,  "bg": 28, "rotates": false },
+          { "id": "overlay_male_mutation_short_over_eye_var_gray",  "fg": 9,  "bg": 29, "rotates": false },
+          { "id": "overlay_male_mutation_medium_var_gray",          "fg": 10, "bg": 30, "rotates": false },
+          { "id": "overlay_male_mutation_hair_gray_medium",         "fg": 10, "bg": 30, "rotates": false },
+          { "id": "overlay_male_mutation_long_var_gray",            "fg": 11, "bg": 31, "rotates": false },
+          { "id": "overlay_male_mutation_hair_gray_long",           "fg": 11, "bg": 31, "rotates": false },
+          { "id": "overlay_male_mutation_messy_var_gray",           "fg": 12, "bg": 32, "rotates": false },
+          { "id": "overlay_male_mutation_long_over_eye_var_gray",   "fg": 13, "bg": 33, "rotates": false }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "type": "mod_tileset",
+    "compatibility": [ "Custom Tileset", "UNDEAD_PEOPLE_BASE", "MSX++DEAD_PEOPLE", "MshockXottoplus", "UNDEAD_PEOPLE", "Chibi_Ultica" ],
+    "tiles-new": [
+      {
+        "file": "body/eye_female.png",
+        "sprite_width": 32,
+        "sprite_height": 48,
+        "sprite_offset_x": 0,
+        "sprite_offset_y": -16,
+        "tiles": [
+          { "id": "overlay_female_mutation_eye_color_var_blue",  "fg": 1, "rotates": false },
+          { "id": "overlay_female_mutation_eye_color_var_brown", "fg": 2, "rotates": false },
+          { "id": "overlay_female_mutation_eye_color_var_hazel", "fg": 3, "rotates": false },
+          { "id": "overlay_female_mutation_eye_color_var_amber", "fg": 4, "rotates": false },
+          { "id": "overlay_female_mutation_eye_color_var_gray",  "fg": 5, "rotates": false },
+          { "id": "overlay_female_mutation_eye_color_var_green", "fg": 6, "rotates": false }
+        ]
+      },
+      {
+        "file": "body/eye_male.png",
+        "sprite_width": 32,
+        "sprite_height": 48,
+        "sprite_offset_x": 0,
+        "sprite_offset_y": -16,
+        "tiles": [
+          { "id": "overlay_male_mutation_eye_color_var_blue",  "fg": 21, "rotates": false },
+          { "id": "overlay_male_mutation_eye_color_var_brown", "fg": 22, "rotates": false },
+          { "id": "overlay_male_mutation_eye_color_var_hazel", "fg": 23, "rotates": false },
+          { "id": "overlay_male_mutation_eye_color_var_amber", "fg": 24, "rotates": false },
+          { "id": "overlay_male_mutation_eye_color_var_gray",  "fg": 25, "rotates": false },
+          { "id": "overlay_male_mutation_eye_color_var_green", "fg": 26, "rotates": false }
+        ]
+      }
+    ]
+  }
+]

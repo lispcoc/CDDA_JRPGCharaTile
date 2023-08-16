@@ -1,0 +1,34 @@
+[
+  {
+    "type": "mod_tileset",
+    "compatibility": [ "Custom Tileset", "UNDEAD_PEOPLE_BASE", "MSX++DEAD_PEOPLE", "MshockXottoplus", "UNDEAD_PEOPLE", "Chibi_Ultica" ],
+    "tiles-new": [
+      {
+        "file": "body/cosmetic_female.png",
+        "sprite_width": 32,
+        "sprite_height": 48,
+        "sprite_offset_x": 0,
+        "sprite_offset_y": -16,
+        "tiles": [
+          { "id": "overlay_female_mutation_tareme",    "fg": 1, "rotates": false },
+          { "id": "overlay_female_mutation_trurime",   "fg": 2, "rotates": false },
+          { "id": "overlay_female_mutation_eyeshadow", "fg": 3, "rotates": false },
+          { "id": "overlay_female_mutation_cheek",     "fg": 4, "rotates": false }
+        ]
+      },
+      {
+        "file": "body/cosmetic_male.png",
+        "sprite_width": 32,
+        "sprite_height": 48,
+        "sprite_offset_x": 0,
+        "sprite_offset_y": -16,
+        "tiles": [
+          { "id": "overlay_male_mutation_tareme",    "fg": 21, "rotates": false },
+          { "id": "overlay_male_mutation_trurime",   "fg": 22, "rotates": false },
+          { "id": "overlay_male_mutation_eyeshadow", "fg": 23, "rotates": false },
+          { "id": "overlay_male_mutation_cheek",     "fg": 24, "rotates": false }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "type": "MOD_INFO",
+    "ident": "jrpg_like_character_tile",
+    "name": "Old JRPG-Like Character Tile",
+    "authors": [ "lispcoc" ],
+    "description": "プレイヤー/NPCの見た目を90年代JRPG風に変更します。",
+    "dependencies": [ "dda" ]
+  }
+]
