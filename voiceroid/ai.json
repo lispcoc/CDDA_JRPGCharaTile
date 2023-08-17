@@ -1,0 +1,22 @@
+[
+    {
+      "type": "mod_tileset",
+      "compatibility": [ "Custom Tileset", "UNDEAD_PEOPLE_BASE", "MSX++DEAD_PEOPLE", "MshockXottoplus", "UNDEAD_PEOPLE", "Chibi_Ultica" ],
+      "tiles-new": [
+        {
+          "file": "voiceroid/ai.png",
+          "sprite_width": 32,
+          "sprite_height": 48,
+          "sprite_offset_x": 0,
+          "sprite_offset_y": -16,
+          "tiles": [
+            { "id": "overlay_mutation_VOIRO_BODY_AI",         "fg": 1, "rotates": false },
+            { "id": "overlay_worn_voiro_hair_ai",             "fg": 3, "rotates": false },
+            { "id": "overlay_worn_voiro_schoolcap_ai",        "fg": 5, "rotates": false },
+            { "id": "overlay_worn_voiro_headset_ai",          "fg": 6, "rotates": false }
+          ]
+        }
+      ]
+    }
+  ]
+  
