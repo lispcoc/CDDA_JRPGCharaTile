@@ -1,0 +1,61 @@
+[
+  {
+    "type": "mod_tileset",
+    "compatibility": [ "Custom Tileset", "UNDEAD_PEOPLE_BASE", "MSX++DEAD_PEOPLE", "MshockXottoplus", "UNDEAD_PEOPLE", "Chibi_Ultica" ],
+    "tiles-new": [
+      {
+        "file": "migration/head/mouth_000.png",
+        "//": "Chibi_Ulticaから移植", 
+        "sprite_width": 32,
+        "sprite_height": 48,
+        "sprite_offset_x": 0,
+        "sprite_offset_y": -16,
+        "tiles": [
+          { "id": "overlay_worn_knit_scarf",                            "fg": 1, "rotates": false },
+          { "id": "overlay_worn_knit_scarf_loose",                      "fg": 1, "rotates": false },
+          { "id": "overlay_worn_long_knit_scarf",                       "fg": 2, "rotates": false },
+          { "id": "overlay_worn_long_knit_scarf_loose",                 "fg": 2, "rotates": false },
+          { "id": "overlay_worn_scarf_fur_long",                        "fg": 2, "rotates": false },
+          { "id": "overlay_worn_scarf_fur_long_loose",                  "fg": 2, "rotates": false },
+          { "id": "overlay_worn_long_patchwork_scarf",                  "fg": 3, "rotates": false },
+          { "id": "overlay_worn_long_patchwork_scarf_loose",            "fg": 3, "rotates": false },
+          { "id": "overlay_worn_scarf_long",                            "fg": 3, "rotates": false },
+          { "id": "overlay_worn_scarf_long_loose",                      "fg": 3, "rotates": false },
+          { "id": "overlay_worn_scarf",                                 "fg": 4, "rotates": false },
+          { "id": "overlay_worn_scarf_fur",                             "fg": 5, "rotates": false },
+          { "id": "overlay_worn_scarf_fur_loose",                       "fg": 5, "rotates": false },
+          { "id": "overlay_worn_patchwork_scarf",                       "fg": 6, "rotates": false },
+          { "id": "overlay_worn_patchwork_scarf_loose",                 "fg": 6, "rotates": false },
+          { "id": "overlay_worn_scarf_loose",                           "fg": 6, "rotates": false },
+          { "id": "overlay_worn_gold_dental_grill",                     "fg": 7, "rotates": false },
+          { "id": "overlay_worn_bandana",                               "fg": 8, "rotates": false },
+          { "id": "overlay_worn_cowl_wool",                             "fg": 9, "rotates": false },
+          { "id": "overlay_worn_mask_dust",                             "fg": 10, "rotates": false },
+          { "id": "overlay_worn_mask_filter",                           "fg": 11, "rotates": false },
+          { "id": "overlay_worn_diamond_dental_grill",                  "fg": 12, "rotates": false },
+          { "id": "overlay_worn_mask_dust_var_flag_mask_dust",          "fg": 13, "rotates": false },
+          { "id": "overlay_worn_rebreather",                            "fg": 14, "rotates": false },
+          { "id": "overlay_worn_rebreather_xl",                         "fg": 15, "rotates": false },
+          { "id": "overlay_worn_mask_gas_half",                         "fg": 16, "rotates": false },
+          { "id": "overlay_worn_mask_dust_var_black_mask_dust",         "fg": 17, "rotates": false },
+          { "id": "overlay_worn_mask_dust_var_blue_mask_dust",          "fg": 18, "rotates": false },
+          { "id": "overlay_worn_mask_dust_var_camo_mask_dust",          "fg": 19, "rotates": false },
+          { "id": "overlay_worn_mask_dust_var_cartoon_mask_dust",       "fg": 20, "rotates": false },
+          { "id": "overlay_worn_mask_dust_var_flower_mask_dust",        "fg": 21, "rotates": false },
+          { "id": "overlay_worn_mask_dust_var_mustache_mask_dust",      "fg": 22, "rotates": false },
+          { "id": "overlay_worn_mask_dust_var_skull_mask_dust",         "fg": 23, "rotates": false },
+          { "id": "overlay_worn_mask_dust_var_steampunk_mask_dust",     "fg": 24, "rotates": false }
+        ]
+      },
+      {
+        "file": "migration/head/mouth_020.png",
+        "//": "Chibi_Ulticaから移植", 
+        "sprite_width": 32,
+        "sprite_height": 48,
+        "sprite_offset_x": 0,
+        "sprite_offset_y": -16,
+        "tiles": []
+      }
+    ]
+  }
+]
