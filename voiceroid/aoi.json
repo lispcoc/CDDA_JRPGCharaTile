@@ -1,23 +1,23 @@
 [
-    {
-      "type": "mod_tileset",
-      "compatibility": [ "Custom Tileset", "UNDEAD_PEOPLE_BASE", "MSX++DEAD_PEOPLE", "MshockXottoplus", "UNDEAD_PEOPLE", "Chibi_Ultica" ],
-      "tiles-new": [
-        {
-          "file": "voiceroid/aoi.png",
-          "sprite_width": 32,
-          "sprite_height": 48,
-          "sprite_offset_x": 0,
-          "sprite_offset_y": -16,
-          "tiles": [
-            { "id": "overlay_mutation_VOIRO_BODY_AOI",         "fg": 1, "rotates": false },
-            { "id": "overlay_mutation_VOIRO_BODY_AOI_active",  "fg": 1, "rotates": false },
-            { "id": "overlay_worn_voiro_hair_aoi",             "fg": 3, "rotates": false },
-            { "id": "overlay_worn_voiro_hair_aoi2",            "fg": 4, "rotates": false },
-            { "id": "overlay_worn_voiro_ornament_aoi",         "fg": 5, "rotates": false }
-          ]
-        }
-      ]
-    }
-  ]
+  {
+    "type": "mod_tileset",
+    "compatibility": [ "Custom Tileset", "UNDEAD_PEOPLE_BASE", "MSX++DEAD_PEOPLE", "MshockXottoplus", "UNDEAD_PEOPLE", "Chibi_Ultica" ],
+    "tiles-new": [
+      {
+        "file": "voiceroid/aoi.png",
+        "sprite_width": 32,
+        "sprite_height": 48,
+        "sprite_offset_x": 0,
+        "sprite_offset_y": -16,
+        "tiles": [
+          { "id": "overlay_mutation_VOIRO_BODY_AOI",         "fg": 1, "rotates": false },
+          { "id": "overlay_mutation_VOIRO_BODY_AOI_active",  "fg": 2, "rotates": false },
+          { "id": "overlay_worn_voiro_hair_aoi",             "fg": 3, "rotates": false },
+          { "id": "overlay_worn_voiro_hair_aoi2",            "fg": 4, "rotates": false },
+          { "id": "overlay_worn_voiro_ornament_aoi",         "fg": 5, "rotates": false }
+        ]
+      }
+    ]
+  }
+]
   

@@ -1,0 +1,20 @@
+[
+  {
+    "type": "mod_tileset",
+    "compatibility": [ "Custom Tileset", "UNDEAD_PEOPLE_BASE", "MSX++DEAD_PEOPLE", "MshockXottoplus", "UNDEAD_PEOPLE", "Chibi_Ultica" ],
+    "tiles-new": [
+      {
+        "file": "voiceroid/mochiko.png",
+        "sprite_width": 32,
+        "sprite_height": 48,
+        "sprite_offset_x": 0,
+        "sprite_offset_y": -16,
+        "tiles": [
+          { "id": "overlay_mutation_VOIRO_BODY_MOCHIKO",   "fg": 1, "rotates": false },
+          { "id": "overlay_worn_voiro_hat_cotton_mochiko", "fg": 5, "rotates": false },
+          { "id": "overlay_worn_voiro_goggles_mochiko",    "fg": 6, "rotates": false }
+        ]
+      }
+    ]
+  }
+]
