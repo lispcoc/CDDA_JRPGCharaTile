@@ -12,7 +12,8 @@
         "tiles": [
           { "id": "overlay_mutation_VOIRO_BODY_GALACO",         "fg": 1, "rotates": false },
           { "id": "overlay_worn_voiro_hair_galaco",             "fg": 3, "rotates": false },
-          { "id": "overlay_worn_voiro_hair_galaco2",            "fg": 4, "rotates": false }
+          { "id": "overlay_worn_voiro_hair_galaco2",            "fg": 4, "rotates": false },
+          { "id": "overlay_worn_voiro_crown_galaco",            "fg": 5, "rotates": false }
         ]
       }
     ]
