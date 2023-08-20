@@ -1,7 +1,7 @@
 [
   {
     "type": "mutation_type",
-    "id": "cosmetic"
+    "id": "eye_shape"
   },
   {
     "type": "mutation_type",
@@ -20,7 +20,7 @@
     "player_display": false,
     "vanity": true,
     "types": [
-      "cosmetic"
+      "eye_shape"
     ]
   },
   {
@@ -36,7 +36,7 @@
     "player_display": false,
     "vanity": true,
     "types": [
-      "cosmetic"
+      "eye_shape"
     ]
   },
   {
@@ -50,10 +50,7 @@
     "starting_trait": true,
     "valid": false,
     "player_display": false,
-    "vanity": true,
-    "types": [
-      "cosmetic"
-    ]
+    "vanity": true
   },
   {
     "id": "cheek",
@@ -66,10 +63,7 @@
     "starting_trait": true,
     "valid": false,
     "player_display": false,
-    "vanity": true,
-    "types": [
-      "cosmetic"
-    ]
+    "vanity": true
   },
   {
     "id": "jitome",
@@ -100,7 +94,6 @@
     "valid": false,
     "player_display": true,
     "vanity": true,
-    "prereqs": [ "SKIN_DARK" ],
     "types": [
       "jitome"
     ],
@@ -118,7 +111,6 @@
     "valid": false,
     "player_display": true,
     "vanity": true,
-    "prereqs": [ "SKIN_LIGHT" ],
     "types": [
       "jitome"
     ],
@@ -136,7 +128,6 @@
     "valid": false,
     "player_display": true,
     "vanity": true,
-    "prereqs": [ "SKIN_MEDIUM" ],
     "types": [
       "jitome"
     ],
@@ -154,7 +145,6 @@
     "valid": false,
     "player_display": true,
     "vanity": true,
-    "prereqs": [ "SKIN_PINK" ],
     "types": [
       "jitome"
     ],
@@ -172,7 +162,6 @@
     "valid": false,
     "player_display": true,
     "vanity": true,
-    "prereqs": [ "SKIN_TAN" ],
     "types": [
       "jitome"
     ],
@@ -190,7 +179,6 @@
     "valid": false,
     "player_display": true,
     "vanity": true,
-    "prereqs": [ "ALBINO" ],
     "types": [
       "jitome"
     ],
