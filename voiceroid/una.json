@@ -1,0 +1,31 @@
+[
+  {
+    "type": "mod_tileset",
+    "compatibility": [ "Custom Tileset", "UNDEAD_PEOPLE_BASE", "MSX++DEAD_PEOPLE", "MshockXottoplus", "UNDEAD_PEOPLE", "Chibi_Ultica" ],
+    "tiles-new": [
+      {
+        "file": "voiceroid/una.png",
+        "sprite_width": 32,
+        "sprite_height": 48,
+        "sprite_offset_x": 0,
+        "sprite_offset_y": -16,
+        "tiles": [
+          { "id": "overlay_mutation_VOIRO_BODY_UNA",              "fg": 1, "rotates": false },
+          { "id": "overlay_mutation_VOIRO_BODY_UNA_active",       "fg": 2, "rotates": false },
+          { "id": "overlay_mutation_VOIRO_BODY_UNA_SPICY",        "fg": 18, "rotates": false },
+          { "id": "overlay_mutation_VOIRO_BODY_UNA_SPICY_active", "fg": 3, "rotates": false },
+          { "id": "overlay_worn_voiro_hair_una",                  "fg": 4, "rotates": false },
+          { "id": "overlay_worn_voiro_hair_una_sugar_spicy",      "fg": 5, "rotates": false },
+          { "id": "overlay_worn_voiro_hair_una2",                 "fg": 6, "rotates": false },
+          { "id": "overlay_worn_voiro_hair_una2_sugar",           "fg": 7, "rotates": false },
+          { "id": "overlay_worn_voiro_hair_una2_spicy",           "fg": 8, "rotates": false },
+          { "id": "overlay_worn_voiro_hair_una3",                 "fg": 9, "rotates": false },
+          { "id": "overlay_worn_voiro_hair_una3_sugar_spicy",     "fg": 10, "rotates": false },
+          { "id": "overlay_worn_voiro_hat_una",                   "fg": 11, "rotates": false },
+          { "id": "overlay_worn_voiro_hat_una_sugar",             "fg": 12, "rotates": false },
+          { "id": "overlay_worn_voiro_hat_una_spicy",             "fg": 13, "rotates": false }
+        ]
+      }
+    ]
+  }
+]
