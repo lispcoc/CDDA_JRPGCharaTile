@@ -14,6 +14,7 @@
           { "id": "overlay_female_mutation_crewcut_var_blond",         "fg": 2,  "rotates": false },
           { "id": "overlay_female_mutation_hair_blond_crewcut",        "fg": 2,  "rotates": false },
           { "id": "overlay_female_mutation_fro_var_blond",             "fg": 3,  "rotates": false },
+          { "id": "overlay_female_mutation_hair_blond_fro",            "fg": 3,  "rotates": false },
           { "id": "overlay_female_mutation_mohawk_var_blond",          "fg": 4,  "rotates": false },
           { "id": "overlay_female_mutation_hair_blond_mohawk",         "fg": 4,  "rotates": false },
           { "id": "overlay_female_mutation_mullet_var_blond",          "fg": 5,  "rotates": false },

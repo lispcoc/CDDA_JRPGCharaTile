@@ -14,6 +14,7 @@
           { "id": "overlay_male_mutation_crewcut_var_red",         "fg": 2,  "rotates": false },
           { "id": "overlay_male_mutation_hair_red_crewcut",        "fg": 2,  "rotates": false },
           { "id": "overlay_male_mutation_fro_var_red",             "fg": 3,  "rotates": false },
+          { "id": "overlay_male_mutation_hair_red_fro",            "fg": 3,  "rotates": false },
           { "id": "overlay_male_mutation_mohawk_var_red",          "fg": 4,  "rotates": false },
           { "id": "overlay_male_mutation_hair_red_mohawk",         "fg": 4,  "rotates": false },
           { "id": "overlay_male_mutation_mullet_var_red",          "fg": 5,  "rotates": false },
