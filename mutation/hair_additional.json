@@ -1,0 +1,140 @@
+[
+  {
+    "type": "mutation",
+    "id": "hair_okappa",
+    "name": "髪型(おかっぱ)[JRPG]",
+    "points": 0,
+    "description": "後髪を切りそろえた髪型です。",
+    "starting_trait": true,
+    "valid": false,
+    "purifiable": false,
+    "player_display": true,
+    "vanity": true,
+    "variants": [
+      {
+        "id": "blue",
+        "name": { "str": "髪型(青/おかっぱ)[JRPG]" },
+        "description": "後髪を切りそろえた髪型です。",
+        "weight": 1
+      },
+      {
+        "id": "black",
+        "name": { "str": "髪型(黒/おかっぱ)[JRPG]" },
+        "description": "後髪を切りそろえた髪型です。",
+        "weight": 1
+      },
+      {
+        "id": "blond",
+        "name": { "str": "髪型(金/おかっぱ)[JRPG]" },
+        "description": "後髪を切りそろえた髪型です。",
+        "weight": 1
+      },
+      {
+        "id": "brown",
+        "name": { "str": "髪型(茶/おかっぱ)[JRPG]" },
+        "description": "後髪を切りそろえた髪型です。",
+        "weight": 1
+      },
+      {
+        "id": "red",
+        "name": { "str": "髪型(赤/おかっぱ)[JRPG]" },
+        "description": "後髪を切りそろえた髪型です。",
+        "weight": 1
+      },
+      {
+        "id": "green",
+        "name": { "str": "髪型(緑/おかっぱ)[JRPG]" },
+        "description": "後髪を切りそろえた髪型です。",
+        "weight": 1
+      },
+      {
+        "id": "pink",
+        "name": { "str": "髪型(桃/おかっぱ)[JRPG]" },
+        "description": "後髪を切りそろえた髪型です。",
+        "weight": 1
+      },
+      {
+        "id": "purple",
+        "name": { "str": "髪型(紫/おかっぱ)[JRPG]" },
+        "description": "後髪を切りそろえた髪型です。",
+        "weight": 1
+      },
+      {
+        "id": "white",
+        "name": { "str": "髪型(白/おかっぱ)[JRPG]" },
+        "description": "後髪を切りそろえた髪型です。",
+        "weight": 1
+      }
+    ],
+    "types": [ "hair_style" ]
+  },
+  {
+    "type": "mutation",
+    "id": "hair_hime",
+    "name": "髪型(姫カット)[JRPG]",
+    "points": 0,
+    "description": "サイドを頬からあごのあたりで短くカットした髪型です。",
+    "starting_trait": true,
+    "valid": false,
+    "purifiable": false,
+    "player_display": true,
+    "vanity": true,
+    "variants": [
+      {
+        "id": "blue",
+        "name": { "str": "髪型(青/姫カット)[JRPG]" },
+        "description": "サイドを頬からあごのあたりで短くカットした髪型です。",
+        "weight": 1
+      },
+      {
+        "id": "black",
+        "name": { "str": "髪型(黒/姫カット)[JRPG]" },
+        "description": "サイドを頬からあごのあたりで短くカットした髪型です。",
+        "weight": 1
+      },
+      {
+        "id": "blond",
+        "name": { "str": "髪型(金/姫カット)[JRPG]" },
+        "description": "サイドを頬からあごのあたりで短くカットした髪型です。",
+        "weight": 1
+      },
+      {
+        "id": "brown",
+        "name": { "str": "髪型(茶/姫カット)[JRPG]" },
+        "description": "サイドを頬からあごのあたりで短くカットした髪型です。",
+        "weight": 1
+      },
+      {
+        "id": "red",
+        "name": { "str": "髪型(赤/姫カット)[JRPG]" },
+        "description": "サイドを頬からあごのあたりで短くカットした髪型です。",
+        "weight": 1
+      },
+      {
+        "id": "green",
+        "name": { "str": "髪型(緑/姫カット)[JRPG]" },
+        "description": "サイドを頬からあごのあたりで短くカットした髪型です。",
+        "weight": 1
+      },
+      {
+        "id": "pink",
+        "name": { "str": "髪型(桃/姫カット)[JRPG]" },
+        "description": "サイドを頬からあごのあたりで短くカットした髪型です。",
+        "weight": 1
+      },
+      {
+        "id": "purple",
+        "name": { "str": "髪型(紫/姫カット)[JRPG]" },
+        "description": "サイドを頬からあごのあたりで短くカットした髪型です。",
+        "weight": 1
+      },
+      {
+        "id": "white",
+        "name": { "str": "髪型(白/姫カット)[JRPG]" },
+        "description": "サイドを頬からあごのあたりで短くカットした髪型です。",
+        "weight": 1
+      }
+    ],
+    "types": [ "hair_style" ]
+  }
+]

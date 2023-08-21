@@ -1,0 +1,19 @@
+[
+  {
+    "type": "mod_tileset",
+    "compatibility": [ "Custom Tileset", "UNDEAD_PEOPLE_BASE", "MSX++DEAD_PEOPLE", "MshockXottoplus", "UNDEAD_PEOPLE", "Chibi_Ultica" ],
+    "tiles-new": [
+      {
+        "file": "hair_female/hair_additional_gray.png",
+        "sprite_width": 32,
+        "sprite_height": 48,
+        "sprite_offset_x": 0,
+        "sprite_offset_y": -16,
+        "tiles": [
+          { "id": "overlay_mutation_hair_okappa_var_gray", "fg": 0,  "rotates": false },
+          { "id": "overlay_mutation_hair_hime_var_gray",   "fg": 1,  "rotates": false }
+        ]
+      }
+    ]
+  }
+]
